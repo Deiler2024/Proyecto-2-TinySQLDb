@@ -21,7 +21,7 @@ namespace StoreDataManager
             }
         }
 
-        private const string DatabaseBasePath = @"C:\Users\Deiler\Pictures\TinySQLDb-main\TinySQLDb-main\Client";
+        private const string DatabaseBasePath = @"C:\Users\Deiler\Pictures\TinySQLDb-main\TinySQLDb-main\Client"; //se debe cambiar dependiendo de donde este el archivo guardado, en mi portatil es en          @"C:\Users\Usuario II 2024\Pictures\TinySQLDb-main\TinySQLDb-main\Client"
         private const string DataPath = $@"{DatabaseBasePath}\Tablas";
         private const string SystemCatalogPath = $@"{DataPath}\SystemCatalog";
         private const string SystemDatabasesFile = $@"{SystemCatalogPath}\SystemDatabases.table";
